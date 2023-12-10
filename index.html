@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Menú con Filtros</title>
+</head>
+<body>
+    <div id="filtro">
+        <label>Filtrar por:</label>
+        <input type="radio" name="filtro" value="todos" id="todos" checked>
+        <label for="todos">Todos</label>
+        <input type="radio" name="filtro" value="categoria1" id="categoria1">
+        <label for="categoria1">Categoría 1</label>
+        <input type="radio" name="filtro" value="categoria2" id="categoria2">
+        <label for="categoria2">Categoría 2</label>
+    </div>
+
+    <div id="articulos">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
